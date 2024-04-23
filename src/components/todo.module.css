@@ -1,0 +1,63 @@
+.todoApp {
+  width: 100%;
+  max-width: 28rem;
+  margin: 0 auto;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  background: linear-gradient(180deg, #474232 0%, #28271c 100%);
+  color: white;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: large;
+}
+input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  line-height: 1;
+  background-color: #d1d5db;
+  color: #374151;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+button {
+  cursor: pointer;
+  line-height: inherit;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  color: #1f2937;
+  background-color: #f0b322;
+  /* border-radius: 6px; */
+  border: none;
+}
+.input {
+  display: flex;
+  gap: 1rem;
+}
+.todoItem {
+    cursor: pointer;
+    margin-top: 0.75rem;
+    width: 100%;
+    background-color: #d1d5db;
+    color: #374151;
+    justify-content: space-between;
+    gap: 0.6rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    font-weight: 600;
+}
+.iconSize {
+  height: 1.5rem;
+  width: 1.5rem;
+  cursor: pointer;
+}
